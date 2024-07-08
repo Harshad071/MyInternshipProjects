@@ -3,8 +3,8 @@ So this is a object/image detection project using YOLO V7 model.
 
 To run the project on your device , firstly install yolo v7 model on your device from github https://github.com/WongKinYiu/yolov7 . you can also use the given link to download it . 
 
-Open the downloaded yolo v7 file  on Vs code application , paste the files namely flaskaap.py ,flaskaap1.py, flaskaap2.py, flaskaap3.py, hubconfCustom.py, hubconfcustomweb.py into it .
-
+Open the downloaded yolo v7 file  on Vs code application , paste the files namely flaskaap.py ,flaskaap1.py, flaskaap2.py, flaskaap3.py, hubconfCustom.py, hubconfcustomweb.py into it,yolov7-tiny.pt .
+also change the weights to yolov7-tiny.pt
 Then paste the 3 Html codes into the templates file .
 
 Now you can run the code and get the desired output for object/image detection.
