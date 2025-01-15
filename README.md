@@ -1,12 +1,44 @@
-# MyInternshipProjects
-So this is a object/image detection project using YOLO V7 model.
+# Object/Image Detection using YOLOv7
 
-To run the project on your device , firstly install yolo v7 model on your device from github https://github.com/WongKinYiu/yolov7 . you can also use the given link to download it . 
+This project utilizes the YOLOv7 model for efficient and accurate object/image detection. Follow the steps below to set up and run the project on your local device.
 
-Open the downloaded yolo v7 file  on Vs code application , paste the files namely flaskaap.py ,flaskaap1.py, flaskaap2.py, flaskaap3.py, hubconfCustom.py, hubconfcustomweb.py into it,yolov7-tiny.pt .
-also change the weights to yolov7-tiny.pt
-Then paste the 3 Html codes into the templates file .
+---
 
-Now you can run the code and get the desired output for object/image detection.
+## Prerequisites
 
-(this code runs on local host , you have to make the changes into the html code like adding images into it , you can also replace the best.pt file with your trained dataset file , Entire code explanation i have marked them as comment)
+- Python 3.8+
+- YOLOv7 repository (download from [YOLOv7 GitHub](https://github.com/WongKinYiu/yolov7))
+- Required libraries: Install dependencies mentioned in the YOLOv7 repository.
+
+---
+
+## Setup and Installation
+
+1. **Download YOLOv7 Repository**  
+   Clone or download the YOLOv7 repository from the official [GitHub repository](https://github.com/WongKinYiu/yolov7).
+
+2. **Add Project Files**  
+   Paste the following files into the YOLOv7 directory:  
+   - `flaskaap.py`
+   - `flaskaap1.py`
+   - `flaskaap2.py`
+   - `flaskaap3.py`
+   - `hubconfCustom.py`
+   - `hubconfcustomweb.py`
+   - `yolov7-tiny.pt` (weights file)
+
+3. **Update Weights**  
+   Ensure the model uses `yolov7-tiny.pt` as the weights file. Replace any existing weight file references in the code.
+
+4. **Add HTML Templates**  
+   Paste the three provided HTML files into the `templates` directory within the YOLOv7 project folder.
+
+---
+
+## Running the Project
+
+1. **Start the Application**  
+   Run the Flask application using the provided Python scripts (`flaskaap.py`, `flaskaap1.py`, etc.). Use any of the scripts as per your setup requirements.
+
+   ```bash
+   python flaskaap.py
